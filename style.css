@@ -1,5 +1,31 @@
-*{
-    border-style:solid;
-    border-color:black;
-    border-width:1px;
+/* html {
+  align-content: center;
+  width: 100vw;
+  text-align: center;
+  position: fixed; 
+} */
+
+body {
+  width: 900px;
+  margin: auto;
+  border: 1px solid green;
+}
+
+header {
+  height: 100px;
+  /* background: rgb(59, 33, 33); */
+  border-bottom: 5px dashed gray;
+}
+
+#header-logo {
+  width: 50%;
+  /* display: inline-block; */
+  float: left;
+}
+
+#header-icons {
+  width: 45%;
+  text-align: right;
+  /* display: inline-block; */
+  float: left;
 }
